@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hznc.nc_monitor"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+      <!-- the welcome picture of FlashWelcomePicture -->
+        <activity
+            android:name="com.hznc.nc_monitor.FlashWelcomePicture"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" 
+             >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <!-- the main activity about the menu with ListView -->
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/main_title" >
+           <intent-filter>
+                <action android:name="android.intent.action.MAIN_ACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+         <activity
+            android:name=".AboutInformation"
+            android:label="@string/main_title" >
+           <intent-filter>
+                <action android:name="android.intent.action.ABOUT_INFORMATION" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+          <activity
+            android:name="com.hznc.record.AudioRecordActivity"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="adjustResize" >
+           <intent-filter>
+                <action android:name="android.intent.action.AUDIO_RECORD_ACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.hznc.cloud.CloudMainActivity"
+            android:label="@string/cloud_title" >
+           <intent-filter>
+                <action android:name="android.intent.action.CLOUD_MAIN_ACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.hznc.nc_monitor.DataAnalysisMainActivity"
+            android:label="@string/data_analysis_title" >
+           <intent-filter>
+                <action android:name="android.intent.action.DATA_ANALYSIS_MAIN_ACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name="com.hznc.nc_monitor.DataCollectionMainActivity"
+            android:label="@string/data_collection" >
+           <intent-filter>
+                <action android:name="android.intent.action.DATA_COLLECTION_MAIN_ACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+           <activity
+            android:name="com.hznc.nc_monitor.NCSimulationActivity"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="adjustResize" >
+           <intent-filter>
+                <action android:name="android.intent.action.NC_SIMULATION_ACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

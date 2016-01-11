@@ -1,0 +1,53 @@
+        <FrameLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/audio_record_frame_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#5E5E5E" >
+            <com.hznc.draw.RecorderVI
+                android:id="@+id/audio_record_draw"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp" />
+             <LinearLayout
+                android:id="@+id/audio_record_linear_layout"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:orientation="vertical" >
+                <ListView
+                    android:id="@+id/audio_record_list_view"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:focusable="true" />
+            </LinearLayout>
+                
+            <RelativeLayout
+                android:id="@+id/audio_record_control_bar"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_gravity="bottom"
+                android:alpha="0.7" >
+                <TextView
+                    android:id="@+id/audio_record_time_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="40dp"
+                    android:gravity="center"
+                    android:text="@string/audio_record_time"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp" />
+                <ImageButton
+                    android:id="@+id/audio_record_button"
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/audio_record_btn"
+                    android:clickable="true"
+                    android:scaleType="fitCenter" />
+            </RelativeLayout>
+        </FrameLayout>

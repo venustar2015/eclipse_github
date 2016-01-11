@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">数控监控</string>
+    <string name="action_settings">设置</string>
+    <string name="main_title">华中数控移动采集平台</string>
+    <string name="audio_record_time">时长：00:00:00</string>
+    <string name="cloud_title">云端同步</string>
+    <string name="data_analysis_title">信号分析</string>
+    <string name="data_collection">数据采集</string>
+    
+    <!-- export other resources -->
+    <string name="time_player">时长:00:00:00\n当前:00:00:00</string>
+    <string name="vibration_information">振动文件信息</string>
+    <string name="video_information">视频文件信息</string>
+    <string name="audio_information">音频文件信息</string>
+    <string name="other_information">其他信息</string>
+    <string name="open">打开</string>
+    <string name="record">录制</string>
+    <string name="save_record">保存</string>
+    <string name="analyse">分析</string>
+    <string name="set">设置</string>
+    <string name="fragment_content">123</string>
+    <string name="video">视频</string>
+    <string name="audio">音频</string>
+    <string name="vibration">振动</string>
+    <string name="other">其他</string>
+
+    <!--color-->
+    <string name="blue">#6699FF</string>
+    <string name="yellow">#FFCC00</string>
+
+    <!--playcontrol-->
+    <string name="play">播放</string>
+    <string name="replay">重新播放</string>
+    <string name="stop">停止</string>
+    <string name="fullscreen">全屏</string>
+    <string name="time_recorder">时长:00:00:00</string>
+   
+</resources>

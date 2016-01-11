@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="title_style" parent="android:Theme">
+        <item name="android:windowTitleSize">100dp</item>
+        <item name="android:panelColorForeground">#00FF00</item>
+    </style>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="items">
+        <item>123</item>
+        <item>234</item>
+        <item>345</item>
+        <item>456</item>
+        <item>567</item>
+        <item>123</item>
+        <item>234</item>
+        <item>345</item>
+        <item>456</item>
+        <item>567</item>
+        <item>123</item>
+        <item>234</item>
+        <item>345</item>
+        <item>456</item>
+        <item>567</item>
+        <item>123</item>
+        <item>234</item>
+        <item>345</item>
+        <item>456</item>
+        <item>567</item>
+        <item>123</item>
+        <item>234</item>
+        <item>345</item>
+        <item>456</item>
+        <item>567</item>
+        <item>123</item>
+        <item>234</item>
+        <item>345</item>
+        <item>456</item>
+        <item>567</item>
+    </string-array>
+</resources>
