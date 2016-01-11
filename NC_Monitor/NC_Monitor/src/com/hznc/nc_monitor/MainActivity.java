@@ -46,6 +46,7 @@ public class MainActivity extends ActionBarActivity implements OnItemClickListen
 		
 //		创建每一项的点击时间
 		list.setOnItemClickListener(this);
+		System.out.println("this is a test");
 	}
 	
 	@Override
